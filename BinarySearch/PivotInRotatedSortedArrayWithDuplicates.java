@@ -27,11 +27,11 @@ public class PivotInRotatedSortedArrayWithDuplicates {
             if(arr[start] == arr[mid] && arr[end] == arr[mid]){
                 // Skip the duplicates.
                 // but, check the start & end are pivot.
-                if(arr[start] > arr[start + 1]){
+                if(start < end && arr[start] > arr[start + 1]){
                     return start;
                 }
                 start++;
-                if(arr[end] < arr[end - 1]){
+                if(end > start && arr[end] < arr[end - 1]){
                     return end - 1;
                 }
                 end--;
