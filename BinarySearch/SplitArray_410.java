@@ -1,6 +1,11 @@
 package BinarySearch;
 
 // https://leetcode.com/problems/split-array-largest-sum
+/*
+ * Take the sum of all the split subArray of (m) and take max from that .
+ * Find the minimum among that.
+ * 
+ */
 
 public class SplitArray_410 {
     public static void main(String[] args) {
