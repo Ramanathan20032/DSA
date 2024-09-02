@@ -1,5 +1,8 @@
 package RotatedSortedArray;
 
+// https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
+// https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii
+
 public class MinimumInRSA_154 {
     public static void main(String[] args) {
 //        int[] arr = {6, 7, 1, 2, 4, 5};
